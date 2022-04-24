@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../images/back.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+    margin: 0 20px;
+    height: 55vh;
+    height: 27.6rem;
+    color: white;
+    backdrop-filter: blur(4px);
+}
+
+.container img{
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.container p{
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Hubballi', cursive;
+    font-size: large;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.links img{
+    width: 50px;
+    border-radius: 50%;
+    transition: background .5s;
+}
+
+.msgBtn{
+    background: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5000px;
+    font-size: 18px;
+    color: #ff01cf;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.links img:hover{
+    background: #ff01cf;
+}
